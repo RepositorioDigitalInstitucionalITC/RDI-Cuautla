@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir</title>
+    <link rel="stylesheet" href="/CSS/subir-style.css" type="text/css">
+    <link rel="stylesheet" href="/CSS/nuevo-envio-menu.css" type="text/css">
+    <link rel="stylesheet" href="/CSS/subir-style-responsive.css" type="text/css">
+    <!-- General Style -->
+    <link rel="stylesheet" href="/CSS/general-style.css" type="text/css">
+    <link rel="stylesheet" href="/CSS/general-style-responsive.css" type="text/css">
+</head>
+
+<body>
+
+
+    <header id="dark-header">
+
+        <section class="header-sec-r">
+            <h4 id="RDI-dark">Repositorio Digital Institucional</h4>
+        </section>
+        <!---->
+        <section id="header-sec-l" class="header-sec-l ">
+            <!-- Luna -->
+            <svg id="switch" class="img-source cursor" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M32.9066 5.3866C17.5733 4.85327 5.33325 17.1199 5.33325 31.9999C5.33325 46.7199 17.2799 58.6666 31.9999 58.6666C41.8933 58.6666 50.4799 53.2799 55.0933 45.2799C35.0666 44.6133 22.8533 22.7999 32.9066 5.3866Z"
+                    fill="#F9F9F9" />
+            </svg>
+            <!-- Sol -->
+            <svg id="sol" class="img-source sol" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M51.8332 22.1732V9.66651H39.3265L30.4998 0.839844L21.6732 9.66651H9.16651V22.1732L0.339844 30.9998L9.16651 39.8265V52.3332H21.6732L30.4998 61.1598L39.3265 52.3332H51.8332V39.8265L60.6598 30.9998L51.8332 22.1732ZM30.4998 46.9998C21.6732 46.9998 14.4998 39.8265 14.4998 30.9998C14.4998 22.1732 21.6732 14.9998 30.4998 14.9998C39.3265 14.9998 46.4998 22.1732 46.4998 30.9998C46.4998 39.8265 39.3265 46.9998 30.4998 46.9998ZM30.4998 20.3332C24.6065 20.3332 19.8332 25.1065 19.8332 30.9998C19.8332 36.8932 24.6065 41.6665 30.4998 41.6665C36.3932 41.6665 41.1665 36.8932 41.1665 30.9998C41.1665 25.1065 36.3932 20.3332 30.4998 20.3332Z"
+                    fill="#141927" />
+            </svg>
+
+            <h4>
+                <a id="dark-Lhelp" class="headline-1rem-w" href="/Ayuda/Ayuda.html">Ayuda</a>
+            </h4>
+
+
+            <div onclick="mostrarMenu()" class="user cursor">
+                <h3>
+                    <label id="user-dark" class="headline-1rem-s menu cursor " for="">Hugo</label>
+                </h3>
+                <!-- Up -->
+                <svg id="up" class="img-source" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="up-dark" d="M19.1667 26.6665L32.5001 39.9998L45.8334 26.6665H19.1667Z" fill="#F2B90F" />
+                </svg>
+                <!-- Abajo -->
+                <svg id="abajo" class="img-source" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="dowm-dark" d="M19.1667 26.6665L32.5001 39.9998L45.8334 26.6665H19.1667Z" fill="#F2B90F" />
+                </svg>
+            </div>
+
+            <!-- ------------------ -->
+            <div id="menu" class="menu-float">
+                <div class="nav-menu">
+                    <div class="container-menu">
+                        <!-- Perfil -->
+                        <svg class="img-source" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="icon-dark-perfil"
+                            d="M10.9999 11.4997C13.9466 11.4997 16.3333 9.11301 16.3333 6.16634C16.3333 3.21967 13.9466 0.833008 10.9999 0.833008C8.05325 0.833008 5.66658 3.21967 5.66658 6.16634C5.66658 9.11301 8.05325 11.4997 10.9999 11.4997ZM10.9999 14.1663C7.43992 14.1663 0.333252 15.953 0.333252 19.4997V22.1663H21.6666V19.4997C21.6666 15.953 14.5599 14.1663 10.9999 14.1663Z"
+                            fill="#141927" />
+                    </svg>
+                        <h5><a id="dark-wh-1" href="/Perfil/Perfil.html">Ver Perfil</a></h5>
+                    </div>
+                    <!-- Envios -->
+                    <div class="container-menu">
+                        <svg class="img-source" viewBox="0 0 22 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="icon-dark-doc"
+                            d="M13.6666 0.166992H2.99992C1.53325 0.166992 0.346586 1.36699 0.346586 2.83366L0.333252 24.167C0.333252 25.6337 1.51992 26.8337 2.98658 26.8337H18.9999C20.4666 26.8337 21.6666 25.6337 21.6666 24.167V8.16699L13.6666 0.166992ZM16.3333 21.5003H5.66658V18.8337H16.3333V21.5003ZM16.3333 16.167H5.66658V13.5003H16.3333V16.167ZM12.3333 9.50033V2.16699L19.6666 9.50033H12.3333Z"
+                            fill="#141927" />
+                    </svg>
+
+                        <h5><a id="dark-wh-2" href="/Envios/Envios.html">Ver Envios</a></h5>
+                    </div>
+                    <!-- Cerrar Sesión -->
+                    <div class="container-menu">
+                        <svg class="img-source" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="icon-dark-close"
+                            d="M20.6667 5.83333L18.7867 7.71333L22.2267 11.1667H8.66675V13.8333H22.2267L18.7867 17.2733L20.6667 19.1667L27.3334 12.5L20.6667 5.83333ZM3.33341 3.16667H14.0001V0.5H3.33341C1.86675 0.5 0.666748 1.7 0.666748 3.16667V21.8333C0.666748 23.3 1.86675 24.5 3.33341 24.5H14.0001V21.8333H3.33341V3.16667Z"
+                            fill="#991344" />
+                    </svg>
+
+                        <h5><a id="dark-wh-3" class="exit-s" href="#">Cerrar Sesión</a></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Icon Responsive -->
+        <div onclick="mostrarMenuResponsive()" class="menu-responsive-icon">
+            <svg id="menu-icon" width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="icon-menu-dark" d="M0.310059 16H24.3101V13.3333H0.310059V16ZM0.310059 9.33333H24.3101V6.66667H0.310059V9.33333ZM0.310059 0V2.66667H24.3101V0H0.310059Z" fill="#F9F9F9"/>
+            </svg>
+
+            <svg id="close-icon" onclick="QuitarMenu()" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="close-menu-dark" d="M25.6435 9.38879L23.7635 7.50879L16.3101 14.9621L8.85681 7.50879L6.97681 9.38879L14.4301 16.8421L6.97681 24.2955L8.85681 26.1755L16.3101 18.7221L23.7635 26.1755L25.6435 24.2955L18.1901 16.8421L25.6435 9.38879Z" fill="#F9F9F9"/>
+                </svg>
+        </div>
+    </header>
+
+
+
+    <!-- Main -->
+    <main>
+        <section class="content-05 colum-12">
+            <!-- Headline -->
+            <div id="head-dark" class=" headline-4c ">
+                <h2 id="font-dark" class=" headline-h2 ">Nuevo envío</h2>
+            </div>
+            <!-- Steps -->
+            <div class="steps">
+                <!-- 1 -->
+                <div class="step step1">
+                    <div id="cuadro-descrip-1" class=" item-select">
+                        <h4 id="num-cuadro-1">1</h4>
+                    </div>
+                    <p id="label-descrip-1">Describir pt.1</p>
+                </div>
+
+                <svg class="barra1" width="108" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line id="line-1" x1="1.74846e-07" y1="2" x2="108" y2="2.00001" stroke="#1550AF" stroke-width="4" />
+            </svg>
+
+                <!-- 2 -->
+                <div class="step step2">
+                    <div id="cuadro-descrip-2" class="item-step">
+                        <h4 id="num-cuadro-2">2</h4>
+                    </div>
+                    <p id="label-descrip-2" class="des-s">Describir pt. 2</p>
+                </div>
+
+                <svg class="barra2" width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line  id="line-2"  x1="1.74846e-07" y1="2" x2="80" y2="2.00001"  stroke="#1550AF" stroke-width="4" />
+            </svg>
+
+
+
+                <!-- 3 -->
+                <div class="step step3">
+                    <div id="cuadro-descrip-3" class="item-step">
+                        <h4 id="num-cuadro-3">3</h4>
+                    </div>
+                    <p id="label-descrip-3" class="des-s">Acceder</p>
+                </div>
+
+                <svg class="barra3" width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line id="line-3"  x1="1.74846e-07" y1="2" x2="80" y2="2.00001" stroke="#1550AF" stroke-width="4" />
+            </svg>
+
+
+                <!-- 4 -->
+                <div class="step step4">
+                    <div id="cuadro-descrip-4" class="item-step">
+                        <h4 id="num-cuadro-4">4</h4>
+                    </div>
+                    <p id="label-descrip-4" class="des-s">Subir</p>
+                </div>
+
+                <svg class="barra4" width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line id="line-4" x1="1.74846e-07" y1="2" x2="80" y2="2.00001" stroke="#A1B9DF" stroke-width="4" />
+            </svg>
+
+
+                <!-- 5 -->
+                <div class="step step5">
+                    <div id="cuadro-descrip-5" class="item-step">
+                        <h4 id="number-5">5</h4>
+                    </div>
+                    <p id="label-descrip-5" class="des-s">Revisar</p>
+                </div>
+
+                <svg class="barra5" width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="1.74846e-07" y1="2" x2="80" y2="2.00001" stroke="#A1A3A9" stroke-width="4" />
+            </svg>
+
+
+
+                <!-- 6 -->
+                <div class="step step6">
+                    <div id="cuadro-descrip-6" class="item-step">
+                        <h4 id="number-6">6</h4>
+                    </div>
+                    <p id="label-descrip-6" class="des-s">Licencia CC</p>
+                </div>
+
+                <svg class="barra6" width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="1.74846e-07" y1="2" x2="80" y2="2.00001" stroke="#A1A3A9" stroke-width="4" />
+                </svg>
+
+                <!-- 7 -->
+                <div class="step step7">
+                    <div id="cuadro-descrip-7" class="item-step">
+                        <h4 id="number-7">7</h4>
+                    </div>
+                    <p id="label-descrip-7" class="des-s">Licencia</p>
+                </div>
+
+
+
+
+            </div>
+
+
+            <!-- Seleccione  -->
+            <div id="fieldset-dark-1" class="fieldset ">
+                <div id="legend-dark-1" class="lenged1">
+                    <!-- Headline -->
+                    <h5>Subir archivo(s)</h5>
+                </div>
+                <!-- Colum10 -->
+                <div class="colum-10">
+                    <!-- File -->
+                    <div class="file">
+                        <label id="document-w" class="head" for="">Archivo</label>
+                        <label id="select-docum" class="file-input-l cursor" for="file-input">SELECCIONAR ARCHIVO</label>
+                        <input class="file-input" type="file" name="hugo" accept="application/pdf" id="file-input">
+                        <!-- icon -->
+                        <i> <svg class="img-source cursor " viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path id="icon-w"
+                                    d="M25.8 13.3868C24.8933 8.78683 20.8533 5.3335 16 5.3335C12.1467 5.3335 8.8 7.52016 7.13333 10.7202C3.12 11.1468 0 14.5468 0 18.6668C0 23.0802 3.58667 26.6668 8 26.6668H25.3333C29.0133 26.6668 32 23.6802 32 20.0002C32 16.4802 29.2667 13.6268 25.8 13.3868ZM18.6667 17.3335V22.6668H13.3333V17.3335H9.33333L16 10.6668L22.6667 17.3335H18.6667Z"
+                                    fill="#141927" />
+                            </svg></i>
+                    </div>
+
+                    <!-- descripcion file -->
+                    <div class="file-descrip">
+                        <label id="descrip-w" class="head" for="">Descripción del archivo</label>
+                        <!-- Input -->
+                        <input id="input-descrip" placeholder="Ejemplo: Articulo principal." type="text">
+                        <!-- Caption -->
+                        <label id="descrip-1" class="caption" for="">Opcionalmente, describa brevemente el fichero.</label>
+                    </div>
+                    <!-- Specif Date -->
+                    <div class="espec-date">
+                        <label id="embargo-w" class="head" for="">
+                            Embargo hasta una fecha específica
+                        </label>
+                        <!-- Input -->
+                        <input type="date" name="embargo" id="input-dark-2">
+                    </div>
+                    <!-- Motivo E -->
+                    <div class="motivo">
+                        <label id="motivo-w" class="head" for="">Motivo del embargo</label>
+                        <!-- TextArea -->
+                        <textarea name="" id="textarea-dark" cols="60" rows="10"></textarea>
+                        <label id="descrip-2" class="caption" for="">La razón del embargo, para uso interno normalmente.
+                            Opcional.</label>
+                    </div>
+                    <!-- Button -->
+                    <button id="button-add" class="add-o cursor">AGREGAR ARCHIVO Y AÑADIR OTRO</button>
+                </div>
+            </div>
+            <!-- Seleccione  -->
+            <div id="fieldset-dark-2" class="fieldset h529">
+                <div id="legend-dark-2" class="lenged1">
+                    <!-- Headline -->
+                    <h5>Subir archivo(s)</h5>
+                </div>
+                <!-- Colum10 -->
+                <div class="colum-10">
+                    <div class="info-item">
+                        <!-- Item header -->
+                        <div id="header-1" class="header h-firts">
+                            <h6 id="title-bc-1">Primario</h6>
+                        </div>
+                        <div id="header-2" class="header ">
+                            <h6 id="title-bc-2">Archivo</h6>
+                        </div>
+                        <div id="header-3" class="header">
+                            <h6 id="title-bc-3">Tamaño</h6>
+                        </div>
+                        <div id="header-4" class="header">
+                            <h6 id="title-bc-4">Descripción</h6>
+                        </div>
+                        <div id="header-5" class="header">
+                            <h6 id="title-bc-5">Formato</h6>
+                        </div>
+                        <div id="header-6" class="header h-last"></div>
+                        <!-- Info Item -->
+                        <div class="item i-firts">
+                            <label for="myRadio" class="radio">
+                                <input type="radio" name="MyRadioF" id="myRadio" class="radio__input">
+                                <div id="radio" class="radio__radio"></div>
+                            </label>
+                        </div>
+                        <div class="item">
+                            <!-- Colección 1 -->
+                            <div class="item-coleccion-suspc">
+                                <label id="LCheck-1" for="myCheck-1" class="LCheck">
+                                    <input type="checkbox" name="MyCheckF" id="myCheck-1" class="check__input">
+                                    <div id="contente-check" class="check"></div>
+                                    Archivo.pdf
+                                </label>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label for="">58253 bytes</label>
+                        </div>
+                        <div class="item">
+                            <label for="">Archivo principal</label>
+                        </div>
+                        <div class="item">
+                            <label for="">texto/PDF (Compatible)</label>
+                        </div>
+                        <div class="item i-last">
+                            <svg class="img-source cursor border-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 21.2505V25.0005H10.75L21.81 13.9405L18.06 10.1905L7 21.2505ZM24.71 11.0405C25.1 10.6505 25.1 10.0205 24.71 9.63055L22.37 7.29055C21.98 6.90055 21.35 6.90055 20.96 7.29055L19.13 9.12055L22.88 12.8705L24.71 11.0405Z" fill="#141927"/>
+                                <path d="M4 2H28V-2H4V2ZM30 4V28H34V4H30ZM28 30H4V34H28V30ZM2 28V4H-2V28H2ZM4 30C2.89543 30 2 29.1046 2 28H-2C-2 31.3137 0.686292 34 4 34V30ZM30 28C30 29.1046 29.1046 30 28 30V34C31.3137 34 34 31.3137 34 28H30ZM28 2C29.1046 2 30 2.89543 30 4H34C34 0.686292 31.3137 -2 28 -2V2ZM4 -2C0.686292 -2 -2 0.686292 -2 4H2C2 2.89543 2.89543 2 4 2V-2Z" fill="#141927"/>
+                                </svg>
+
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <button id="delete-doc" class="add-o2 cursor">ELIMINAR ARCHIVOS SELECCIONADOS</button>
+                </div>
+            </div>
+
+
+            <!-- Buttons -->
+
+            <article class="buttons">
+                <!-- Back -->
+                <button id="back-button" onclick="location.href='Acceder.html'" class="back">REGRESAR</button>
+                <!-- Save and exit -->
+                <button id="save-button" onclick="location.href='/Guardar o cancelar/Guardar o cancelar el envio.html'" class="save-exit cursor ">GUARDAR Y SALIR</button>
+                <!-- next -->
+                <button id="next-button" onclick="location.href='Revisar.html'" class="next">SIGUIENTE</button>
+            </article>
+        </section>
+
+
+    </main>
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="dark-footer" class="colum-12 footer">
+
+        <section class="pages-footer">
+            <article class="img-link-footer">
+                <!-- Normatividad -->
+                <div class="justify-c">
+                    <svg class="img-source " viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="dark-doc-foot"
+                        d="M10 0H2C0.9 0 0.0100002 0.9 0.0100002 2L0 18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6L10 0ZM12 16H4V14H12V16ZM12 12H4V10H12V12ZM9 7V1.5L14.5 7H9Z"
+                        fill="#F9F9F9" />
+                </svg>
+                </div>
+                <div class="justify-s">
+                    <h4>
+                        <a id="dark-a1" href="/Normatividad/normatividad.html">Normatividad</a>
+                    </h4>
+                </div>
+
+
+            </article>
+
+            <!-- ITCuautla -->
+            <article class="img-link-footer">
+                <div class="justify-c">
+                    <svg class="img-source " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="dark-doc1-foot"
+                        d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM16.92 6H13.97C13.65 4.75 13.19 3.55 12.59 2.44C14.43 3.07 15.96 4.35 16.92 6ZM10 2.04C10.83 3.24 11.48 4.57 11.91 6H8.09C8.52 4.57 9.17 3.24 10 2.04ZM2.26 12C2.1 11.36 2 10.69 2 10C2 9.31 2.1 8.64 2.26 8H5.64C5.56 8.66 5.5 9.32 5.5 10C5.5 10.68 5.56 11.34 5.64 12H2.26ZM3.08 14H6.03C6.35 15.25 6.81 16.45 7.41 17.56C5.57 16.93 4.04 15.66 3.08 14ZM6.03 6H3.08C4.04 4.34 5.57 3.07 7.41 2.44C6.81 3.55 6.35 4.75 6.03 6ZM10 17.96C9.17 16.76 8.52 15.43 8.09 14H11.91C11.48 15.43 10.83 16.76 10 17.96ZM12.34 12H7.66C7.57 11.34 7.5 10.68 7.5 10C7.5 9.32 7.57 8.65 7.66 8H12.34C12.43 8.65 12.5 9.32 12.5 10C12.5 10.68 12.43 11.34 12.34 12ZM12.59 17.56C13.19 16.45 13.65 15.25 13.97 14H16.92C15.96 15.65 14.43 16.93 12.59 17.56ZM14.36 12C14.44 11.34 14.5 10.68 14.5 10C14.5 9.32 14.44 8.66 14.36 8H17.74C17.9 8.64 18 9.31 18 10C18 10.69 17.9 11.36 17.74 12H14.36Z"
+                        fill="#F9F9F9" />
+                </svg>
+                </div>
+                <div class="justify-s">
+                    <h4>
+                        <a id="dark-a2" href="https://www.cuautla.tecnm.mx/">ITCuautla</a>
+                    </h4>
+                </div>
+
+            </article>
+
+
+            <article class="img-link-footer">
+                <!-- SII -->
+                <div class="justify-c">
+                    <svg class="img-source " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="dark-doc2-foot"
+                        d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM16.92 6H13.97C13.65 4.75 13.19 3.55 12.59 2.44C14.43 3.07 15.96 4.35 16.92 6ZM10 2.04C10.83 3.24 11.48 4.57 11.91 6H8.09C8.52 4.57 9.17 3.24 10 2.04ZM2.26 12C2.1 11.36 2 10.69 2 10C2 9.31 2.1 8.64 2.26 8H5.64C5.56 8.66 5.5 9.32 5.5 10C5.5 10.68 5.56 11.34 5.64 12H2.26ZM3.08 14H6.03C6.35 15.25 6.81 16.45 7.41 17.56C5.57 16.93 4.04 15.66 3.08 14ZM6.03 6H3.08C4.04 4.34 5.57 3.07 7.41 2.44C6.81 3.55 6.35 4.75 6.03 6ZM10 17.96C9.17 16.76 8.52 15.43 8.09 14H11.91C11.48 15.43 10.83 16.76 10 17.96ZM12.34 12H7.66C7.57 11.34 7.5 10.68 7.5 10C7.5 9.32 7.57 8.65 7.66 8H12.34C12.43 8.65 12.5 9.32 12.5 10C12.5 10.68 12.43 11.34 12.34 12ZM12.59 17.56C13.19 16.45 13.65 15.25 13.97 14H16.92C15.96 15.65 14.43 16.93 12.59 17.56ZM14.36 12C14.44 11.34 14.5 10.68 14.5 10C14.5 9.32 14.44 8.66 14.36 8H17.74C17.9 8.64 18 9.31 18 10C18 10.69 17.9 11.36 17.74 12H14.36Z"
+                        fill="#F9F9F9" />
+                </svg>
+                </div>
+                <div class="justify-s">
+                    <h4>
+                        <a id="dark-a3" href="http://sii.cuautla.tecnm.mx/">SII</a>
+                    </h4>
+                </div>
+            </article>
+
+
+        </section>
+
+        <section class="socials">
+            <div class="titulo">
+                <h2>Siguenos en </h2>
+            </div>
+
+            <div class="img-socials">
+                <!-- Facebook -->
+                <a class="cursor" href="https://www.facebook.com/ITCuautlaOficial"> <svg class="img-source " viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 47.9719 11.7019 61.2106 27 63.6113V41.25H18.875V32H27V24.95C27 16.93 31.7775 12.5 39.0869 12.5C42.5869 12.5 46.25 13.125 46.25 13.125V21H42.215C38.24 21 37 23.4669 37 26V32H45.875L44.4562 41.25H37V63.6113C52.2981 61.2106 64 47.9719 64 32Z"
+                        fill="#1877F2" />
+                    <path
+                        d="M44.4562 41.25L45.875 32H37V26C37 23.4694 38.24 21 42.215 21H46.25V13.125C46.25 13.125 42.5881 12.5 39.0869 12.5C31.7775 12.5 27 16.93 27 24.95V32H18.875V41.25H27V63.6113C30.3132 64.1296 33.6868 64.1296 37 63.6113V41.25H44.4562Z"
+                        fill="white" />
+                </svg></a>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com/TecnmCuautla"> <svg class="img-source " viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.54752 19.7506C16.6042 19.7506 21.5578 12.2473 21.5578 5.7404C21.5578 5.52728 21.5578 5.31512 21.5434 5.10392C22.507 4.40687 23.3389 3.5438 24 2.55512C23.1014 2.95352 22.148 3.21467 21.1718 3.32984C22.1998 2.71453 22.9692 1.74662 23.3366 0.606318C22.3701 1.17993 21.3126 1.58414 20.2099 1.80152C19.4675 1.0121 18.4856 0.489359 17.4162 0.314202C16.3468 0.139046 15.2494 0.321233 14.294 0.832571C13.3385 1.34391 12.5782 2.15589 12.1307 3.14287C11.6833 4.12984 11.5735 5.23678 11.8186 6.2924C9.8609 6.1942 7.94576 5.68543 6.19745 4.79912C4.44915 3.91282 2.90676 2.66878 1.6704 1.14776C1.04073 2.23175 0.847872 3.51499 1.1311 4.73618C1.41433 5.95737 2.15234 7.02471 3.19488 7.72088C2.41123 7.69792 1.64465 7.48651 0.96 7.10456V7.16696C0.960311 8.30381 1.35385 9.40555 2.07387 10.2853C2.79389 11.1651 3.79606 11.7687 4.9104 11.9938C4.18548 12.1916 3.42487 12.2205 2.68704 12.0783C3.00181 13.0566 3.61443 13.9122 4.43924 14.5253C5.26405 15.1384 6.25983 15.4784 7.28736 15.4978C6.26644 16.3003 5.09731 16.8936 3.84687 17.2438C2.59643 17.594 1.28921 17.6943 0 17.5388C2.25183 18.9838 4.87192 19.7503 7.54752 19.7468"
+                        fill="#1DA1F2" />
+                </svg></a>
+
+                <!-- Yotube -->
+
+                <a href="  https://www.youtube.com/channel/UCw4gM0YbsRGLtijurDCJ9jg"> <img class="img-source " src="/assets/youtube.png" alt=""></a>
+            </div>
+
+
+
+
+
+        </section>
+
+        <section class="contacts">
+            <div class="titulo">
+                <h2>Contactenos en</h2>
+            </div>
+
+            <div class="img-contacts">
+                <!-- Phone -->
+                <svg class="img-source cursor" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="dark-thel"
+                    d="M17.01 12.38C15.78 12.38 14.59 12.18 13.48 11.82C13.13 11.7 12.74 11.79 12.47 12.06L10.9 14.03C8.07 12.68 5.42 10.13 4.01 7.2L5.96 5.54C6.23 5.26 6.31 4.87 6.2 4.52C5.83 3.41 5.64 2.22 5.64 0.99C5.64 0.45 5.19 0 4.65 0H1.19C0.65 0 0 0.24 0 0.99C0 10.28 7.73 18 17.01 18C17.72 18 18 17.37 18 16.82V13.37C18 12.83 17.55 12.38 17.01 12.38Z"
+                    fill="#06A852" />
+            </svg>
+                <!-- Message -->
+                <svg class="img-source  cursor" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="dark-messa"
+                    d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 4L10 9L2 4V2L10 7L18 2V4Z"
+                    fill="#F2B90F" />
+            </svg>
+
+
+            </div>
+
+
+        </section>
+
+        <section class="credits">
+            <h4 id="dark-copy">&copy 2021 - TecNM Campus Cuautla. Repositorio Digital <br> Institucional. Todos los Derechos Reservados.
+            </h4>
+
+        </section>
+
+    </footer>
+
+
+
+</body>
+<!-- Menu Flotante -->
+<script type="text/javascript" src="/JS/nuevo-envio-menu.js"></script>
+<!-- Dark Mode -->
+<script type="text/javascript" src="/JS/dm-subir.js"></script>
+
+</html>

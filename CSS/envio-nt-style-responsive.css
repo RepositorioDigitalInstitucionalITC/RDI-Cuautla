@@ -1,0 +1,153 @@
+        @media only all and (max-width: 414px) {
+
+            #header-sec-l{
+                flex-wrap: wrap;
+            }
+            .content-document {
+                width: 100%;
+                /* background-color: blue; */
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                height: auto !important;
+                margin-top: 36px;
+            }
+
+            .item-document {
+                margin-top: 0px;
+                grid-column: 1/9;
+                height: auto !important;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column-reverse;
+                position: relative;
+            }
+
+            .information-doc {
+                width: 100%;
+                height: 746px;
+                margin-top: 28px;
+            }
+
+            .content-button {
+                height: auto;
+                width: 100%;
+                margin-top: 0px;
+                flex-direction: column;
+            }
+
+            .information-doc .head-doc {
+                height: 194px;
+                width: 100%;
+                /* border: 1px solid red; */
+            }
+
+            .information-doc .head-doc h4 {
+                height: 138px;
+                font-size: 34px;
+                line-height: 46px;
+                letter-spacing: 0.25px;
+                /* border: 1px solid red; */
+            }
+
+            .information-doc .head-doc h6 {
+                height: 52px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+                letter-spacing: 0.15px;
+                /* border: 1px solid red; */
+            }
+
+            .information-doc .item-desc {
+                margin-top: 8px;
+                padding: 0px 8px 0px 0px;
+                height: 356px;
+                /* border: 1px solid red; */
+            }
+
+            .information-doc .item-desc h6 {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+                letter-spacing: 0.15px;
+            }
+
+            #border-wh {
+                width: 100%;
+            }
+
+            #border-wh2 {
+                margin-top: 28px;
+                width: 100%;
+            }
+
+            .preview_and_button {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 328px;
+            }
+
+            .type-document {
+                margin-top: 36px;
+                margin-bottom: 65px;
+                /* border: 1px dashed darkred; */
+            }
+
+            /* Preview */
+            .content-doc {
+                display: flex;
+                justify-content: center;
+                display: none;
+            }
+
+            .preview {
+                position: relative;
+                width: 311px;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+
+            .content-doc .capa {
+                display: none;
+            }
+
+            .button-responsive {
+                width: 100%;
+                height: 52px;
+                background-color: var(--ICV_500);
+                border-radius: 0px 0px 16px 16px;
+                /*  */
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                animation-timing-function: ease-out;
+                animation-duration: 300ms;
+            }
+
+            .menu-float {
+                margin-left: 0px !important;
+                margin-top: 28px !important;
+            }
+
+            #header-sec-l {
+                margin-left: 43% !important;
+            }
+
+
+            .container-menu {
+                justify-content: space-between;
+            }
+
+            .container-menu svg {
+                margin: auto 0px auto 0px !important;
+            }
+
+            .container-menu h5 {
+                width: 80%;
+            }
+
+            /* ============Vista Completa =======*/
+        }

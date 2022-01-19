@@ -1,0 +1,206 @@
+@media only screen and (max-width: 414px) {
+    .content-perfil {
+        margin-top: 0px;
+    }
+    .content-perfil .headline-3c {
+        grid-column: 1/5;
+        height: 43px;
+        border-radius: 5.06294px;
+    }
+    .content-perfil .headline-3c h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.15px;
+    }
+    .fieldset {
+        grid-column: 1/9;
+        height: 639px;
+    }
+    /* Nombres */
+    .identidad-colum-10 {
+        height: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .colum-10 {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        column-gap: 4px;
+    }
+    .identidad-colum-10 .item-identidad {
+        width: 100%;
+        height: 86px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .identidad-colum-10 .input-name {
+        margin-top: 28px;
+        height: 86px;
+    }
+    .input-name input {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+    .identidad-colum-10 .input-apellido {
+        margin-top: 28px;
+        height: 86px;
+    }
+    .input-apellido input {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+    .identidad-colum-10 .input-telefonos {
+        grid-column: 2/8;
+        margin-top: 28px;
+        height: 86px;
+    }
+    .input-telefonos .inpunt-with-icon {
+        width: 100%;
+        height: 40px;
+    }
+    .input-telefonos input {
+        width: 100%;
+        height: 38px;
+    }
+    .identidad-colum-10 .input-correo {
+        grid-column: 2/8;
+        margin-top: 28px;
+        height: 86px;
+    }
+    .input-correo .inpunt-with-icon {
+        width: 100%;
+    }
+    .input-correo .inpunt-with-icon input {
+        width: 85%;
+    }
+    .identidad-colum-10 .input-lenguaje {
+        margin-top: 20px;
+        height: 86px;
+        grid-column: 2/8;
+    }
+    /* suspcriciones */
+    .suspcriciones {
+        grid-column: 1/9;
+        height: 725px;
+        /* display: none !important; */
+    }
+    .suspcriciones .suspcri {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-left: 23.5px;
+        padding-right: 23.5px;
+        height: auto;
+    }
+    .suspcriciones .suspcri .descripcion-sus {
+        width: 100%;
+        margin-top: 28px;
+        padding: 16px;
+        height: auto;
+        padding-bottom: 0px;
+    }
+    .suspcriciones .suspcri .descripcion-sus h6 {
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .suspcriciones .suspcri .dropdown {
+        width: 100%;
+        margin-top: 28px;
+        height: auto;
+    }
+    .ejex-y {
+        position: absolute;
+        margin-top: 324px;
+        margin-left: 35%;
+    }
+    .suspcriciones .suspcri .list-suspc {
+        grid-column: 1/9;
+        margin-top: 106px;
+        height: 152px;
+        width: 100%;
+    }
+    .suspcriciones .suspcri .list-suspc .item-coleccion-suspc {
+        width: 100%;
+    }
+    .suspcriciones .suspcri .list-suspc .item-coleccion-suspc label {
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+    /* ========== */
+    .secction-2 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .secction-2 .password {
+        grid-column: 1/9;
+    }
+    .secction-2 .group-auto {
+        grid-column: 1/9;
+        /* display: none !important; */
+    }
+    .save-change {
+        grid-column: 1/9;
+    }
+    .quitar-button {
+        margin-top: 36px;
+        grid-column: 2/8;
+    }
+    /* password */
+    .secction-2 .password {
+        height: 465px;
+    }
+    .lenged2{
+        width: 282px;
+    }
+    .secction-2 .password .headline-desc {
+        margin-top: 28px;
+        height: auto;
+        width: 90%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .secction-2 .password .headline-desc h6 {
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .secction-2 .password .content-change-passw {
+        width: 90%;
+        height: 86px;
+        margin: 28px 16px 0px 16px;
+        grid-column: 2/8;
+    }
+    .secction-2 .password .content-change-passw input {
+        width: 100%;
+    }
+    .secction-2 .password .content-change-passw .eye {
+        margin-left: 70%;
+    }
+    .secction-2 .group-auto {
+        height: 455px;
+    }
+    .secction-2 .group-auto .headline-groups {
+        margin-top: 28px;
+        height: auto;
+    }
+    
+    .secction-2 .group-auto .headline-groups h6 {
+        font-size: 14px;
+    }
+}

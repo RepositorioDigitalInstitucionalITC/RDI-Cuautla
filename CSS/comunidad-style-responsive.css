@@ -1,0 +1,268 @@
+@media only screen and (max-width: 414px) {
+    #header-sec-l {
+        width: 197px !important;
+        height: 170px !important;
+    }
+    #header-sec-l svg {
+        margin-left: 0px;
+    }
+    .general-secction-h {
+        height: auto;
+    }
+    #dark-headline {
+        grid-column: 1/5;
+        height: 43px;
+        border-radius: 5.06294px;
+    }
+    #dark-headline h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.15px;
+    }
+    #organims-dark {
+        grid-column: 1/9;
+        margin-top: 28px;
+        height: 454px;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .list {
+        width: 382px;
+        height: 74px;
+        border-radius: 8px 8px 0px 0px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .list .responsive-display {
+        display: none;
+    }
+    .justify-c svg {
+        height: 48px;
+        width: 48px;
+    }
+    .list-item {
+        width: 65.5px;
+        align-self: flex-start;
+    }
+    .content {
+        width: 382px;
+        border-radius: 0px 0px 8px 8px;
+        margin: 0px;
+        padding: 0px;
+        height: 380px;
+        grid-template: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .search-4c {
+        width: 231px;
+        margin-top: 16px;
+        margin-left: 16px;
+        display: flex;
+        flex-direction: row;
+    }
+    #input-4c {
+        width: 199px;
+        height: 32px;
+    }
+    #icon-responsive {
+        margin-left: 198px;
+        position: absolute;
+    }
+    .content-button {
+        width: 88px;
+        position: absolute;
+        margin-left: 277px;
+        margin-top: 16px;
+    }
+    .data {
+        width: 282px;
+        height: 285px;
+        margin: 28px auto 0px auto;
+        row-gap: 12px;
+    }
+    .data .data1-item {
+        width: 282px !important;
+        height: 60px;
+    }
+    #list-dark-5 {
+        border-radius: 0px 8px 0px 0px;
+    }
+    #list-dark-1 {
+        border-radius: 8px 0px 0px 0px;
+    }
+    #list-dark-1 {
+        width: min-content;
+        display: flex;
+        align-content: flex-start !important;
+        justify-content: flex-start !important;
+        padding: 0px;
+        margin-left: 0px;
+        padding: 4px;
+    }
+    #subcomunidades {
+        display: flex;
+        margin: 0px;
+    }
+    #subcomunidades h5 a {
+        height: 100%;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.15px;
+    }
+    .bt:hover {
+        background-color: var(--PCV_200) !important;
+    }
+    .views {
+        height: auto;
+        margin-top: 65px;
+        /* display: none !important; */
+    }
+    .views .headline-4c {
+        grid-column: 1/5;
+        height: 43px;
+        border-radius: 5.06294px;
+    }
+    .views .headline-4c h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.15px;
+    }
+    .slider {
+        margin-top: 28px;
+        margin-bottom: 40px;
+        grid-column: 1/9;
+        height: 382px;
+    }
+    #hover-left,
+    #hover-right {
+        margin-top: 167px;
+    }
+    #content-dark {
+        /* display: none; */
+        width: 151.71px;
+        height: 231.62px;
+        margin-left: 12px;
+        margin-top: 75.19px;
+    }
+    #content-dark .bg-disable {
+        width: 100%;
+        height: 138.97px;
+        display: flex;
+        justify-content: center;
+    }
+    .info-doc-disable {
+        width: 121.6px;
+        height: 78.75px;
+        margin: auto;
+        margin-top: 4.63px;
+        /* border: 1px solid red; */
+    }
+    #content-dark .bg-disable img {
+        width: 105.39px;
+        height: 129.71px;
+    }
+    #content1-dark {
+        width: 196px;
+        height: 300px;
+        margin-left: -70px;
+        /* display: none; */
+    }
+    #content1-dark .bg {
+        width: 100%;
+        height: 179.72px;
+        display: flex;
+        justify-content: center;
+    }
+    .info-doc {
+        width: 157.26px;
+        height: 101.84px;
+        margin: 5.99px auto 0px auto;
+    }
+    #font-wh-5 {
+        font-size: 11.9814px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.112325px;
+    }
+    #content2-dark {
+        width: 151.71px;
+        height: 231.62px;
+        margin-right: 9.29px;
+        margin-left: -72px;
+        margin-top: 75.19px;
+    }
+    #content2-dark .bg-disable {
+        width: 100%;
+        height: 138.97px;
+        display: flex;
+        justify-content: center;
+    }
+    #content2-dark .bg-disable img {
+        width: 105.39px;
+        height: 129.71px;
+    }
+    #hover-right {
+        margin-left: 318px;
+    }
+    #font-wh-9 {
+        font-size: 9.26482px;
+        line-height: 13px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.0868576px;
+    }
+    #font-wh-6 {
+        font-weight: normal;
+        font-size: 11.9814px;
+        line-height: 15px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.374417px;
+    }
+    #font-wh-9,
+    #font-wh-1 {
+        font-weight: normal;
+        font-size: 9.26482px;
+        line-height: 13px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.0868576px;
+    }
+    caption {
+        font-size: 8.98601px !important;
+        line-height: 11px !important;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.299534px !important;
+    }
+    #font-wh-10,
+    #font-wh-11,
+    #font-wh-12,
+    #font-wh-2,
+    #font-wh-3,
+    #font-wh-4 {
+        font-weight: normal;
+        font-size: 9.26482px;
+        line-height: 11px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.289525px;
+    }
+    #icon-responsive-1,
+    #icon-responsive-2,
+    #icon-responsive-3 {
+        width: 32px;
+        height: 32px;
+    }
+    .dark {
+        color: var(--BCV_500) !important;
+    }
+}

@@ -1,0 +1,84 @@
+@media only screen and (max-width: 414px) {
+    #header-sec-l {
+        width: 197px;
+        height: 170px;
+    }
+    
+    .content-document {
+        height: auto;
+    }
+    .content-document .item-document {
+        height: auto;
+        margin-top: 32px;
+        margin-bottom: 40px;
+        grid-column: 1/9;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content-document .information-doc {
+        height: auto;
+    }
+    .content-document .information-doc #item-info {
+        width: 100%;
+        height: 194px;
+    }
+    .content-document .information-doc #item-info h4 {
+        font-size: 34px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.25px;
+        width: 100%;
+        height: 138px;
+    }
+    .content-document .information-doc #item-info h6 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .content-document .information-doc .item-desc {
+        margin-top: 8px;
+        width: 100%;
+        height: 356px;
+    }
+    .content-document .information-doc .item-desc h6 {
+        padding: 0px;
+        margin: 0px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    /*  */
+    .content-document .preview_and_button {
+        margin-top: 9px;
+    }
+    .content-document .preview_and_button .preview {
+        width: 335px;
+        height: 512px;
+        margin: 0px auto 0px auto;
+    }
+    .content-document .preview_and_button .preview .content-doc {
+        display: none;
+    }
+    .content-document .preview_and_button .preview .contenido {
+        width: 100%;
+    }
+    .button-responsive {
+        width: 100%;
+        height: 52px;
+        margin-top: 460px;
+        cursor: pointer;
+        border-radius: 0px 0px 16px 16px;
+        background-color: #1550AF;
+        /* display*/
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+}

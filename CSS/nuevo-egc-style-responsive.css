@@ -1,0 +1,53 @@
+@media only screen and (max-width:414px) {
+    .nav-menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .content_news_sc {
+        height: auto;
+        margin-top: 36px;
+    }
+    .fieldset {
+        margin-top: 28px;
+        grid-column: 1/9;
+    }
+    .lenged1 {
+        width: 262px;
+        height: 42px;
+    }
+    .lenged1 h5 {
+        font-size: 18px;
+        line-height: 33px;
+        /* identical to box height */
+        text-align: center;
+    }
+    .content-des {
+        display: flex;
+    }
+    .content-des .descripcion-sc {
+        width: 320px;
+        margin: auto;
+    }
+    .content-des .descripcion-sc p {
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .main-button {
+        grid-column: 1/9;
+        height: auto;
+        flex-direction: column;
+        row-gap: 28px;
+        margin-top: 36px;
+        margin-bottom: 40px;
+    }
+    .main-button button {
+        width: 100%;
+        height: 64px;
+    }
+}

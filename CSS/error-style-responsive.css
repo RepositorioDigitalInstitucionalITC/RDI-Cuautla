@@ -1,0 +1,52 @@
+@media only screen and (max-width: 414px) {
+    #header-sec-l {
+        width: 197px;
+        height: 170px;
+    }
+    #header-sec-l svg {
+        margin-left: 0px;
+    }
+    .error-content {
+        height: auto;
+    }
+    .error-content .headline-6c {
+        grid-column: 1/6;
+        height: 43px;
+        border-radius: 5.06294px;
+    }
+    .error-content .headline-6c h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.15px;
+    }
+    #content-img {
+        grid-column: 1/9;
+        height: 382px;
+        margin-top: 28px;
+    }
+    #descrip {
+        grid-column: 1/9;
+        height: 255px;
+        border-radius: 8px;
+        margin-top: 24px;
+    }
+    #descrip1,
+    #descrip2 {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .buttons {
+        grid-column: 1/9;
+        height: 248px;
+        margin-top: 36px;
+        margin-bottom: 40px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .buttons button {
+        width: 100%;
+        height: 64px;
+    }
+}

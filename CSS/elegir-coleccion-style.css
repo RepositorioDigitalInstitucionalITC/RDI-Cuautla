@@ -1,0 +1,265 @@
+.content-new-send {
+    width: 100%;
+    height: 832px;
+    /* border: 1px dashed red; */
+}
+
+
+/* --fieldset-- */
+
+.fieldset {
+    grid-column: 2/12;
+    height: 327px;
+    /* WShades-500 */
+    background: var(--WHCV_500);
+    /* BShades-500 */
+    border: 2px solid var(--BCV_500);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-top: 0px;
+}
+
+.lenged1 {
+    width: 335px;
+    height: 49px;
+    /* Secondary-500 */
+    background-color: var(--SCV_500);
+    /* WShades-500 */
+    border: 2px solid var(--WHCV_500);
+    border-radius: 8px;
+    margin-left: -5px;
+    margin-top: -5px;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lenged1 h5 {
+    /* H5 */
+    font-family: var(--font_headlines);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    /* BShades-500 */
+    color: var(--BCV_500);
+}
+
+
+/* --Botones --*/
+
+.botones {
+    grid-column: 2/12;
+    height: 4rem;
+    margin-top: 0px;
+    /*  */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dashed darkblue; */
+}
+
+.cancel-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    width: 200px;
+    height: 64px;
+    /* BShades-500 */
+    border: 2px solid #141927;
+    box-sizing: border-box;
+    border-radius: 16px;
+    /* Button */
+    font-family: var(--font_body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    /* BShades-500 */
+    color: var(--BCV_500);
+    cursor: pointer;
+}
+
+.next-button {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    width: 199px;
+    height: 64px;
+    /* Primary-500 */
+    background: #1B396A;
+    /* BShades-500 */
+    border: 1px solid #141927;
+    box-sizing: border-box;
+    border-radius: 16px;
+    /* Button */
+    font-family: var(--font_body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    /* BShades-500 */
+    color: var(--WHCV_500);
+}
+
+
+/* --colum10-- */
+
+.colum-10 {
+    height: 87%;
+}
+
+.descrip {
+    grid-column: 3/9;
+    height: 80px;
+    background-color: var(--ICV_500);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 36px;
+}
+
+.descrip h6 {
+    /* H6 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    /* WShades-500 */
+    color: #F9F9F9;
+}
+
+
+/* --Lista-- */
+
+.list-colecc {
+    grid-column: 3/7;
+    height: 66px;
+    margin-top: 36px;
+    /*  */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid darkcyan; */
+}
+
+.list-label {
+    /* Body 1 */
+    font-family: var(--font_body);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 0.5px;
+    /* BShades-500 */
+    color: var(--BCV_500);
+}
+
+.select1 {
+    padding: 4px 8px 4px 16px;
+    width: 100%;
+    height: 40px;
+    /* WShades-500 */
+    background: var(--WHCV_500);
+    /* Primary-500 */
+    border: 1px solid #1B396A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* Subtitle 1 */
+    font-family: var(--font_headlines);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    /* BShades-500 */
+    color: #141927;
+}
+
+
+/* ================
+DARK MODE 
+================ */
+
+.boxshaw-menu {
+    /* background-color: var(--BCV_400); */
+    background-color: red;
+    border: 3px solid var(--WHCV_500);
+    box-sizing: border-box;
+    box-shadow: 4px 8px 8px 0px rgba(20, 25, 39, 0.5);
+}
+
+.dark-fill {
+    fill: var(--BCV_500);
+}
+
+.dark-font-bc {
+    color: var(--BCV_500);
+}
+
+.wh-border {
+    border: 1px solid var(--WHCV_500);
+}
+
+.dark-background {
+    background-color: var(--PCV_200);
+}
+
+.dark-dcv200 {
+    background-color: var(--ECV_200);
+    border: 1px solid var(--WHCV_500);
+    color: var(--BCV_500);
+}
+
+.fieldset-dark {
+    border: 2px solid var(--WHCV_500);
+    background-color: var(--BCV_500);
+}
+
+.border-wh-button {
+    background-color: var(--ECV_200);
+    border: 1px solid var(--WHCV_500);
+    color: var(--BCV_500);
+}
+
+.select-dark {
+    background-color: var(--BCV_400);
+    color: var(--WHCV_500);
+    border: 1px solid var(--WHCV_500);
+}
+
+.cancel-button-dark {
+    background-color: var(--BCV_500);
+    border: 2px solid var(--WHCV_500);
+    color: var(--WHCV_500);
+}
+
+.next-button-dark {
+    background-color: var(--PCV_200);
+    border: 2px solid var(--BCV_500);
+    color: var(--BCV_500);
+}

@@ -1,0 +1,179 @@
+@media only all and (max-width:414px) {
+
+    #header-sec-l {
+        width: 197px;
+        height: 170px;
+    }
+    
+    .content-document {
+        /* border: 1px solid red; */
+        height: auto;
+        margin-top: 32px;
+        padding: 8px !important;
+    }
+    .content-document .item-document {
+        margin-top: 0px;
+        height: auto;
+        grid-column: 1/9;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap; */
+        /* background-color: #1550AF !important; */
+    }
+    .content-document .item-document .table-places {
+        margin-top: 80px;
+        height: auto;
+        /* width: 9; */
+        /* background-color: darkgreen !important; */
+        /* display: none !important; */
+        
+    }
+    .content-document .item-document .table-places .table {
+        width: 100%;
+        margin-top: -80px;
+    }
+    #head-dark {
+        width: 100%;
+        height: 97px;
+        border-radius: 4px;
+    }
+    #head-dark h5 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.15px;
+    }
+    .item-general {
+        margin-top: 8px;
+        width: 100%;
+        /* border: 1px solid black; */
+        justify-content: start;
+    }
+    /* ================ */
+    .item-general div:nth-child(1n) {
+        width: 100%;
+        border-radius: 4px 0px 0px 4px;
+        display: flex;
+        align-items: center;
+    }
+    .item-general div:nth-child(1n) h5 {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.5px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .item-general div:nth-child(2n) {
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .item-general div:nth-child(2n) h5 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: start;
+    }
+    .item-general div:nth-child(3n) {
+        width: 100%;
+        border-radius: 0px 4px 4px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .item-general div:nth-child(3n) h5 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: start;
+    }
+    .table div:nth-child(9n) {
+        margin-top: 63px;
+    }
+    /* ======== */
+    .item-general-2 div:nth-child(1n) {
+        width: 160px;
+        border-radius: 4px 0px 0px 4px;
+        display: flex;
+        align-items: center;
+    }
+    .item-general-2 div:nth-child(1n) h5 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: start;
+    }
+    .item-general-2 div:nth-child(1n),
+    .item-general-2 div:nth-child(2n),
+    .item-general-2 div:nth-child(3n) {
+        height: 500px;
+        width: 100%;
+        /* display: none; */
+    }
+
+   
+    .item-general-2 div:nth-child(2n) {
+        /* height: 636px; */
+        width: 122px;
+        border-radius: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .item-general-2 div:nth-child(2n) h5 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: start;
+    }
+    .item-general-2 div:nth-child(3n) {
+        /* height: 536px; */
+        width: 60px;
+        border-radius: 0px 4px 4px 0px;
+        display: flex;
+        align-items: center;
+/* display: none; */
+    }
+    .item-general-2 div:nth-child(3n) h5 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: start;
+    }
+    .content-document .item-document .places {
+        display: none;
+    }
+    .content-document .item-document .preview_and_button {
+        margin-top: 36px;
+        margin-bottom: 40px;
+    }
+    .content-document .item-document .preview_and_button .preview {
+        width: 335px;
+        height: 512px;
+        margin: 0px auto 0px auto;
+    }
+    .preview_and_button .preview .content-doc .contenido {
+        width: 100%;
+    }
+    .content-document .preview_and_button .preview .content-doc {
+        display: none;
+    }
+    .responsive-button {
+        width: 100%;
+        height: 52px;
+        margin-top: 460px;
+        cursor: pointer;
+        border-radius: 0px 0px 16px 16px;
+        background-color: #1550AF;
+        /* display*/
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+}

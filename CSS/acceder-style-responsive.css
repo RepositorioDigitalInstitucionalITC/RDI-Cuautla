@@ -1,0 +1,167 @@
+@media only screen and (max-width: 414px) {
+    .nav-menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .content-04 {
+        margin-top: 32px;
+    }
+
+    .steps {
+        grid-column: 1/9;
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .step {
+        width: min-content !important;
+        height: 100%;
+        background-color: var(--WHC_500);
+        /* margin-right: 39.5px; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .step p {
+        width: 100%;
+        height: 50% !important;
+        text-align: center;
+        font-size: 11px !important;
+    }
+
+    .step .item-step {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 8px;
+    }
+
+    .step .item-step p {
+        font-size: 8px !important;
+    }
+
+    .step .item-select {
+        width: 2rem;
+        height: 2rem;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+
+
+
+    .step .item-step h4,
+    .step .item-select h4 {
+        /* H4 */
+        font-family: var(--font_headlines);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 36px;
+        letter-spacing: 0.25px;
+        /* BShades-500 */
+        color: #141927;
+        text-align: center;
+    }
+
+    .barra1, .barra2, .barra3, .barra4, .barra5, .barra6 {
+        display: none;
+    }
+
+    #fieldset-dark-1 {
+        grid-column: 1/9;
+        height: auto;
+        margin-top: 28px;
+    }
+    #fieldset-dark-1 .lenged1, #fieldset-dark-2 .lenged1 {
+    width:  282px;
+    }
+
+
+
+    #fieldset-dark-1 .colum-10 {
+        height: auto;
+        padding: 0px 23.5px 0px 23.5px;
+        display: flex;
+    }
+
+    #fieldset-dark-1 .item-privado {
+        margin-top: 28px;
+        margin-bottom: 28px;
+        width: 100%;
+    }
+
+    #fieldset-dark-1 .item-privado .descrip-privado {
+        margin: 0px;
+        margin-top: 28px;
+        width: 100%;
+    }
+
+    #fieldset-dark-1 .item-privado .descrip-privado h6 {
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+        width: 100%;
+    }
+
+    #fieldset-dark-1 .item-privado .item-coleccion-suspc {
+        width: 100%;
+        margin: 0px;
+        margin-top: 28px;
+    }
+
+    #fieldset-dark-2 {
+        grid-column: 1/9;
+        height: auto;
+    }
+
+    #fieldset-dark-2 .colum-10 {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 23.5px 0px 23.5px;
+    }
+
+    #fieldset-dark-2 .colum-10 .content-date {
+        margin-top: 28px;
+    }
+
+    #fieldset-dark-2 .colum-10 .content-date i {
+        margin-left: 288px;
+    }
+
+    #fieldset-dark-2 .colum-10 .content-motivo {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    #fieldset-dark-2 .colum-10 .content-motivo textarea {
+        resize: none;
+    }
+
+    .content-04 .buttons {
+        grid-column: 1/9;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+    .content-04 .buttons button {
+        width: 100%;
+        margin-top: 28px;
+    }
+}

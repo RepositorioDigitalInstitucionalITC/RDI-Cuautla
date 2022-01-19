@@ -1,0 +1,130 @@
+@media only screen and (max-width:414px) {
+    .nav-menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .content-08 {
+        height: auto;
+        margin-top: 32px;
+    }
+    .fieldset {
+        margin-top: 0px;
+        grid-column: 1/9;
+        height: auto;
+    }
+
+
+    .fieldset .lenged1{
+        width: 282px;
+    }
+    .fieldset .colum-10 {
+        height: auto;
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 23.5px 0px 23.5px;
+    }
+    .fieldset .colum-10 .descrip {
+        padding: 16px;
+        height: auto;
+    }
+    .fieldset .colum-10 .descrip h6 {
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .fieldset .colum-10 .licen-label {
+        margin-top: 28px;
+        text-align: start;
+    }
+    .fieldset .colum-10 .item-coleccion-suspc {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+    .steps {
+        grid-column: 1/9;
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .step {
+        width: min-content !important;
+        height: 100%;
+        background-color: var(--WHC_500);
+        /* margin-right: 39.5px; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .step p {
+        width: 100%;
+        height: 50% !important;
+        text-align: center;
+        font-size: 11px !important;
+    }
+
+    .step .item-step {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 8px;
+    }
+
+    .step .item-step p {
+        font-size: 8px !important;
+    }
+
+    .step .item-select {
+        width: 2rem;
+        height: 2rem;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+
+
+
+    .step .item-step h4,
+    .step .item-select h4 {
+        /* H4 */
+        font-family: var(--font_headlines);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 36px;
+        letter-spacing: 0.25px;
+        /* BShades-500 */
+        color: #141927;
+        text-align: center;
+    }
+
+    .barra1, .barra2, .barra3, .barra4, .barra5, .barra6 {
+        display: none;
+    }
+
+    .buttons {
+        grid-column: 1/9;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 12px;
+        margin-bottom: 40px;
+    }
+    .buttons button {
+        width: 100% !important;
+        margin-top: 28px;
+    }
+}

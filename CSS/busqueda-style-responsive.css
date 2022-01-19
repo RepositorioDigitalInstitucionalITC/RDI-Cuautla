@@ -1,0 +1,176 @@
+@media only screen and (max-width: 414px) {
+    #header-sec-l {
+        width: 197px;
+        height: 170px;
+    }
+    #header-sec-l svg {
+        margin-left: 0px;
+    }
+    .content-busqueda .headline-5c {
+        grid-column: 1/5;
+        height: 43px;
+        border-radius: 5.06294px;
+    }
+    .content-busqueda .headline-5c h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.15px;
+    }
+    .content-busqueda .opciones-busqueda {
+        margin: 0px;
+        margin-top: 28px;
+        grid-column: 1/9 !important;
+        height: 202px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-busqueda .opciones-busqueda .lugar {
+        width: 100%;
+    }
+    .content-busqueda .opciones-busqueda .lugar select {
+        width: 100%;
+    }
+    .content-busqueda .opciones-busqueda .search5c {
+        width: 100%;
+    }
+    .content-busqueda .resultados {
+        grid-column: 1/9;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        column-gap: 16px;
+        margin-top: 36px;
+        height: auto;
+    }
+    .content-busqueda .resultados .encabezado {
+        grid-column: 1/9;
+        align-items: center;
+    }
+    .content-busqueda .resultados .info-paginacion {
+        width: 231px;
+        height: 38px;
+        border-radius: 5.06294px;
+        padding: 8px 4px;
+    }
+    .content-busqueda .resultados .info-paginacion h5 {
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        letter-spacing: 0.15px;
+    }
+    .content-busqueda .resultados .item-result-r {
+        grid-column: 1/9;
+        height: 849px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .content-busqueda .resultados .item-result-r .preview {
+        height: 443px;
+        width: 100%;
+        border-radius: 16px 16px 0px 0px;
+    }
+    .content-busqueda .resultados .item-result-r .preview .img-doc .img-preview {
+        border-radius: 16px 16px 0px 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    .content-busqueda .resultados .item-result-r .preview .img-doc .type-doc {
+        width: 259px;
+        height: 65px;
+        margin: 28px auto 0px auto;
+    }
+    .content-busqueda .resultados .item-result-r .informacion-item {
+        height: 406px;
+        width: 100%;
+        padding: 0px;
+    }
+    .informacion-item .result-group {
+        width: 100%;
+        margin: 0px;
+    }
+    .informacion-item .result-group .title-result {
+        width: 100%;
+        height: 98px;
+        padding: 16px;
+    }
+    .informacion-item .result-group .title-result h4 {
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .informacion-item .result-group .date_autors {
+        margin-top: 0px;
+    }
+    .informacion-item .result-group .date_autors .autors-item h5 {
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .informacion-item .result-group .date_autors .date-item h5 {
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+    }
+    .informacion-item .result-group .description {
+        margin-top: 0px;
+        height: 220px;
+        padding: 20px 16px 0px;
+    }
+    .pagination-main {
+        grid-column: 1/9;
+        margin-bottom: 0px;
+    }
+    .pagination-main-dark {
+        grid-column: 1/9;
+        margin-bottom: 40px;
+    }
+    .fieldset-f {
+        grid-column: 1/9 !important;
+    }
+    .lenged1 {
+        width: 240px;
+        height: 49px;
+    }
+    .contenido-filtros {
+        width: 332px;
+        height: 404px;
+        margin: 36px 25px 40px 25px;
+    }
+    .row-filter {
+        align-items: flex-start;
+        flex-direction: column;
+        height: 236px;
+        width: 100%;
+    }
+    #select-f-1,
+    #select-f-2,
+    #input-dark {
+        width: 100%;
+    }
+    #icon-plus-res {
+        position: absolute;
+        align-self: flex-start;
+        margin-left: 0px;
+        margin-top: 204px;
+    }
+    #icon-res-res {
+        align-self: flex-end;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .contenido-filtros .botones-filter {
+        height: 120px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contenido-filtros .botones-filter button {
+        width: 100%;
+    }
+}

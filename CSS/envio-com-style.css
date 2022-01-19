@@ -1,0 +1,196 @@
+/* Main */
+
+#header-sec-l{
+    width: 334px !important;
+}
+
+.content_news_sc {
+    width: 100%;
+    height: 873px;
+}
+
+
+/* Fielshield */
+
+.fieldset {
+    grid-column: 2/12;
+    height: 445px;
+    /* WShades-500 */
+    background: var(--WHCV_500);
+    /* BShades-500 */
+    border: 2px solid var(--BCV_500);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+
+.lenged1 {
+    width: 355px;
+    height: 49px;
+    /* Secondary-500 */
+    background-color: var(--SCV_500);
+    /* WShades-500 */
+    border: 2px solid var(--WHCV_500);
+    border-radius: 8px;
+    margin-left: -5px;
+    margin-top: -5px;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lenged1 h5,
+.lenged2 h5 {
+    /* H5 */
+    font-family: var(--font_headlines);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    /* BShades-500 */
+    color: var(--BCV_500);
+}
+
+.content-des {
+    width: 100%;
+    height: 89%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 20px;
+}
+
+.descripcion-sc {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 16px;
+    height: 268px;
+    margin-top: 64px;
+    /* Info-500 */
+    background: var(--ICV_500);
+    border-radius: 16px;
+    grid-column: 2/10;
+}
+
+.descripcion-sc p {
+    width: 845.27px;
+    font-family: var(--font_headlines);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.15px;
+    /* WShades-500 */
+    color: var(--WHCV_500);
+    /* border: 1px dashed red; */
+}
+
+
+/* Main Button */
+
+.main-button {
+    margin-top: 80px;
+    grid-column: 2/12;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dashed black; */
+}
+
+.drop-send {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    position: static;
+    width: 213px;
+    height: 100%;
+    /* BShades-500 */
+    border: 2px solid #141927;
+    box-sizing: border-box;
+    border-radius: 16px;
+    /* Button */
+    font-family: var(--font_body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    /* BShades-500 */
+    color: var(--BCV_500);
+}
+
+.save-cl {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    position: static;
+    width: 335px;
+    height: 100%;
+    /* Primary-500 */
+    background: var(--PCV_500);
+    /* BShades-500 */
+    border: 1px solid #141927;
+    box-sizing: border-box;
+    border-radius: 16px;
+    /* Button */
+    font-family: var(--font_body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    /* BShades-500 */
+    color: var(--WHCV_500);
+}
+
+
+/* ====================
+DARK MODE
+======================*/
+
+.border-bg-dark {
+    /* BShades-500 */
+    background: var(--BCV_500);
+    /* WShades-500 */
+    border: 2px solid var(--WHCV_500);
+}
+
+.border-black {
+    border: 2px solid var(--BCV_500);
+}
+
+.buton-dark {
+    background-color: var(--BCV_500) !important;
+    color: var(--WHCV_500) !important;
+    border: 2px solid var(--WHCV_500) !important;
+}
+
+.newbutton-dark {
+    background-color: var(--PCV_200) !important;
+    color: var(--BCV_500) !important;
+    border: 1px solid var(--WHCV_500) !important;
+}
+
+.dark-fill {
+    fill: var(--BCV_500);
+}
